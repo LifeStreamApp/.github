@@ -85,7 +85,7 @@ JWT_SECRET=your_jwt_secret
 The frontend uses `EXPO_PUBLIC_API_BASE_URL` to connect to the backend API. When testing on a physical phone, use your computer's local network IP instead of `localhost`.
 
 ```env
-EXPO_PUBLIC_API_BASE_URL=http://192.168.1.10:5000
+EXPO_PUBLIC_API_BASE_URL=http://127.0.0.1:5000
 ```
 
 If this value is missing, the frontend shows a clear configuration error instead of failing with an undefined API URL.
